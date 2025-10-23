@@ -10,6 +10,7 @@ includeemojis = True
 includenonlatin = True
 includestupidity = True
 includeunicode = True
+includewhitespace = True
 # Set-up
 import random
 allchars = ""
@@ -23,6 +24,7 @@ emojis = "💿🍁🧂😠😭🪑😛💔🥀🕊️✌️🙏"
 nonlatin = "ΑαΔδΗηθΘεΕβΒΓγΖζΙιπΠνΝκΚΛλΞξΡρςΣοΟμΜΤτΧχσϠϡψΨυΥΦφΩωϜϝέΈ"
 stupidity = "–—€£¥©²°•é→←—№™®℗©℃−§¦⌈⌉⌊⌋‖⟬⟭⟧⟦⟫⟪‰⁂✓✕⁐¿�¡"
 uni = "☂☎☘☢☣☪☮☯☻☀☬♻"
+whitespace = "   "
 # Set-up²
 allchars += alphabet
 # Apply Settings
@@ -40,6 +42,8 @@ if includestupidity:
   allchars += stupidity
 if includeunicode:
   allchars += uni
+if includewhitespace:
+  allchars += whitespace
 # Create password
 password = ""
 for i in range(1, (length + 1)):
