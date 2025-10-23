@@ -10,6 +10,7 @@ let includeemojis = true;
 let includenonlatin = true;
 let includestupidity = true;
 let includeunicode = true;
+let includewhitespace = true;
 // Set-up
 let allchars = "";
 function randomchar() {
@@ -24,6 +25,7 @@ let emojis = "💿🍁🧂😠😭🪑😛💔🥀🕊️✌️🙏"; // If you 
 let nonlatin = "ΑαΔδΗηθΘεΕβΒΓγΖζΙιπΠνΝκΚΛλΞξΡρςΣοΟμΜΤτΧχσϠϡψΨυΥΦφΩωϜϝέΈ"; // I am NOT typing every single non-latin character 😭🙏
 let stupidity = "–—€£¥©²°•é→←—№™®℗©℃−§¦⌈⌉⌊⌋‖⟬⟭⟧⟦⟫⟪‰⁂✓✕⁐¿�¡";
 let unicode = "☂☎☘☢☣☪☮☯☻☀☬♻"; // HELL NO IM NOT TYPING THEM ALL 💔💔
+let whitespace = "   ";
 // Set-up²
 allchars += alphabet;
 // Apply settings
@@ -48,6 +50,9 @@ if (includestupidity) {
 }
 if (includeunicode) {
   allchars += unicode;
+}
+if (includewhitespace) {
+  allchars += whitespace;
 }
 // Create password
 let password = "";
