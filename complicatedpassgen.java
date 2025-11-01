@@ -1,5 +1,5 @@
 // My most COMPLICATED password generator
-// Written by Logan Knowles, age 13
+// Written by skxllytheskeleton - https://github.com/skxllytheskeleton/
 
 import java.util.*;
 
