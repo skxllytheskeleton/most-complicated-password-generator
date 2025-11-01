@@ -1,5 +1,5 @@
 --My most COMPLICATED password generator
---Written by Logan Knowles, age 13
+--Written by skxllytheskeleton - https://github.com/skxllytheskeleton/
 --REQUIRES THE UTF8 LIBRARY TO WORK
 local utf8 = require("utf8")
 function utf8sub(str,char1,char2)
